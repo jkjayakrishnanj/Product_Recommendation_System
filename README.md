@@ -12,3 +12,13 @@ commands: Implements the command pattern for actions such as add, remove, recomm
 ui: Contains parsers for user input (RecommendationParser, EdgeParser) and a custom exception (ParseException)
 
 main: The Recommender class serves as the entry point and runs the user interaction loop
+## Algorithms & Concepts Used
+Depth-First Search (DFS): Used in strategies S2 (successors) and S3 (predecessors) to compute transitive recommendations
+
+Graph Validation & Inverse Relationships: Each added edge automatically inserts its semantic inverse
+
+Regular Expressions (Regex): Used to parse commands like S1 123 or Product1 part-of Product2
+
+TreeSet Sorting: Nodes and edges are sorted alphabetically or by custom predicate order for readable output
+
+Command Pattern: Each user command is encapsulated in its own class (e.g. AddCommand, RecommendCommand)
