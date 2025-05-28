@@ -6,6 +6,9 @@ Recommendations are computed by traversing this graph structure.
 The project follows a modular design based on the MVC principle, with clearly separated responsibilities:
 
 model: Defines core data structures including Product, Category, Edge, Graph, and recommendation Term logic
+
 commands: Implements the command pattern for actions such as add, remove, recommend, export
+
 ui: Contains parsers for user input (RecommendationParser, EdgeParser) and a custom exception (ParseException)
+
 main: The Recommender class serves as the entry point and runs the user interaction loop
