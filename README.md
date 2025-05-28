@@ -1,3 +1,5 @@
-# Programmieraufgabe - Repository Vorlage
-Im Verzeichnis src/ sind alle Quelltextdateien und Pakete abzulegen.
-Elemente außerhalb des src/ Verzeichnisses werden nicht kompiliert und folglich nicht berücksichtigt.
+# Prduct_Recommendation_System
+In this project, I developed a text-based recommendation system for products, built on a directed graph structure.
+The system models products and categories as nodes, with semantic relationships such as contains, part-of, or successor-of represented as edges.
+Recommendations are computed by traversing this graph structure.
+
