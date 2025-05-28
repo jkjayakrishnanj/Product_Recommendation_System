@@ -22,3 +22,7 @@ Regular Expressions (Regex): Used to parse commands like S1 123 or Product1 part
 TreeSet Sorting: Nodes and edges are sorted alphabetically or by custom predicate order for readable output
 
 Command Pattern: Each user command is encapsulated in its own class (e.g. AddCommand, RecommendCommand)
+## Libraries Used
+Pure Java SE (java.util, java.io, java.nio, java.util.regex)
+
+No external frameworks — implementation focuses on clean, maintainable Java code using core object-oriented design principles
